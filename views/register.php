@@ -27,7 +27,7 @@
                   }
                    ?>
 
-                      <form role="form" method="post" action="<?php echo base_url('index.php/user/register_user'); ?>">
+                      <form role="form" method="post" action="<?php echo base_url('user/register_user'); ?>">
                           <fieldset>
                               <div class="form-group">
                                   <input class="form-control" placeholder="First name" name="user_first_name" type="text" autofocus required>
@@ -54,11 +54,14 @@
                                     <li><label><input type="radio" name="license_type" value="paid"> Betalend abbonement.</label></li>
                                     </ul>
                                </div>
+                              <div>
+                                    <input type="checkbox" id="genagr" required>Ik ga akkoord met de <a class="brown_text" href="algemenevoorwaarden.html" target="_blank" >algemene voorwaarden</a>
+                              </div>
                               <input class="btn btn-lg btn-success btn-block" type="submit" value="Register" name="register" >
 
                           </fieldset>
                       </form>
-                      <center><b>Already registered ?</b> <br></b><a href="<?php echo base_url('index.php/user/login_view'); ?>">Login here</a></center><!--for centered text-->
+                      <center><b>Already registered ?</b> <br></b><a href="<?php echo base_url('user/login_view'); ?>">Login here</a></center><!--for centered text-->
                   </div>
               </div>
           </div>

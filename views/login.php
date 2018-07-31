@@ -35,7 +35,7 @@
                   ?>
 
                 <div class="panel-body">
-                    <form role="form" method="post" action="<?php echo base_url('index.php/user/login_user'); ?>">
+                    <form role="form" method="post" action="<?php echo base_url('user/login_user'); ?>">
                         <fieldset>
                             <div class="form-group"  >
                                 <input class="form-control" placeholder="E-mail" name="user_email" type="email" autofocus>
@@ -49,7 +49,7 @@
 
                         </fieldset>
                     </form>
-                <center><b>Not registered ?</b> <br></b><a href="<?php echo base_url('index.php/user/index'); ?>">Register here</a></center><!--for centered text-->
+                <center><b>Not registered ?</b> <br></b><a href="<?php echo base_url('user/index'); ?>">Register here</a></center><!--for centered text-->
 
                 </div>
             </div>
